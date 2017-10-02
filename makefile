@@ -35,7 +35,7 @@ src/progcommon/OptionParser.class: src/progcommon/OptionParser.java
 
 clean:
 	rm -f src/*.class
-	rm -f progcommon/*.class
+	rm -f src/progcommon/*.class
 
 scrub: clean
 	rm -f *.jar
